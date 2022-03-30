@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: rgb(212, 252, 233);
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.content{
+    padding-top: 0.2%;
+}
+.sidebar h1{
+    padding-left: 5%;
+    animation: toptodown 1.8s;
+    color: rgb(132, 173, 209);
+}
+@keyframes toptodown{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    50%{
+        opacity: 0;
+        transform: scale(0.4);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.label-1{
+    padding-top: 1%;
+    font-size: 29px;
+    display: block;
+    margin-left: 5%;
+    animation: toptodown 2.2s;
+}
+@keyframes toptodown{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    50%{
+        opacity: 0;
+        transform: scale(0.4);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.label-1 button{
+    border: 1px solid black;
+    height: 34px;
+    border-radius: 7px;
+    width: 130px;
+    cursor: pointer;
+    color: black;
+    animation: toptodown 3.3s;
+}
+@keyframes toptodown{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    50%{
+        opacity: 0;
+        transform: scale(0.4);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.airdrop-content{
+    width: 40%;
+    padding-left: 5%;
+    padding-top: 2%;
+    animation: toptodown 4.1s;
+}
+@keyframes toptodown{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    50%{
+        opacity: 0;
+        transform: scale(0.4);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.airdrop h1{
+    padding-top: 5%;
+    animation: toptodown 4.1s;
+}
+@keyframes toptodown{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    50%{
+        opacity: 0;
+        transform: scale(0.4);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+a{
+    text-decoration: none;
+    color: rgb(75, 140, 214);
+}
+a:hover{
+    color: blue;
+}
